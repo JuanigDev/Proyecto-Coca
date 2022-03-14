@@ -49,6 +49,7 @@ header .container nav a
 header .container .hamb
 {
 		display: none;
+		position: relative;
 }
 
 footer
@@ -407,6 +408,10 @@ footer .redes a{
 		font-size: 30px;
 		margin: 15px 0;
 	}
+	header .container nav.open
+	{
+		transform: translateX(0);
+	}
 	header .container .hamb
 	{
 		display: block;
@@ -454,6 +459,14 @@ footer .redes a{
 	#inicio
 	{
 		height: 100vh;
+	}
+
+	.bloque-inicio
+	{
+		width: 100%;
+		margin-left: 0;
+		left: 0;
+		padding: 0 15px;
 	}
 
 	#inicio img
